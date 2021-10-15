@@ -37,7 +37,6 @@ header{
   flex-direction: row;
   height: 48px;
   justify-content: space-between;
-  padding: 0 20px;
   width: 100%;
 }
 
@@ -47,11 +46,16 @@ header{
 
 .contact li {
   align-items: center;
+  border: solid 1px #2A2A2A;
   color: white;
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 0 20px;
   list-style: none;
+}
+
+.contact li p{
+  margin-left: 10px;
 }
 
 .rrss {
@@ -59,9 +63,10 @@ header{
 }
 
 .rrss li {
+  border: solid 1px #2A2A2A;
   flex-direction: row;
-  padding: 10px;
   list-style: none;
+  padding: 16px 20px;
 }
 
 .rrss li a {
@@ -75,13 +80,127 @@ nav {
   justify-content: flex-end;
 }
 
-nav ul{
+nav ul {
+  align-items: center;
   display: flex;
 }
 
 nav ul li {
   align-items: center;
+  color: #111111;
   flex-direction: row;
   list-style: none;
-  padding: 10px;
+  padding: 28px 20px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.search-btn {
+  border: solid 1px #EEEEEE;
+  padding: 28px;
+}
+
+.burger-menu {
+  background-color: #E41C26;
+  color: #ffffff;
+  height: 100%;
+  padding:20px;
+  width: 100%;
+}
+
+.burger-menu svg {
+  height: 40px;
+  width: 40px;
+}
+
+@media only screen and (max-width: 850px) {
+  header  {
+    flex-direction: column;
+  }
+
+  .logo-primary {
+    width: 100%;
+  }
+
+  .browser-container{
+    width: 100%;
+  }
+}
+
+footer {
+  background-color: #111111;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.container-left{
+  
+} 
+
+.container-left figure{
+  margin: 20px auto;
+} 
+
+.color-text{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.color-icon {
+  color: #E41C26;
+}
+
+
+.container-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-footer {
+  padding: 20px;
+}
+
+.column-footer h3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.column-footer ul li {
+  list-style: none;
+}
+
+.column-footer ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.copy {
+  background-color: #000000;
+  display: flex;
+  height: 60px;
+}
+
+.copy p{
+  color: #ffffff;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  
+  .container-footer {
+    flex-direction: column;
+    width: 90%;
+  }
 }
