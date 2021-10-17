@@ -10,6 +10,59 @@ body{
   font-family: 'Jost', Arial, Helvetica, sans-serif;
 }
 
+/* CLASES PARA COMPARTIR INICIO */
+
+.flex-left{
+  display: flex;
+  justify-content: start;
+}
+
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: center;
+}
+
+.flex-end {
+display: flex;
+justify-content: flex-end;
+}
+
+flex-center {
+display: flex;
+justify-content: center;
+}
+
+.flex-sa {
+display: flex;
+justify-content: space-around;
+}
+
+.flex-sb {
+display: flex;
+justify-content: space-between;
+}
+
+.flex-end {
+display: flex;
+align-items: flex-end;
+}
+
+.flex-center {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.flex-saend {
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
+
+/* CLASES PARA COMPARTIR FIN */
+
 header{
   display: flex;
   flex-direction: row;
