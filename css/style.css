@@ -9,7 +9,7 @@
 body{
   font-family: 'Jost', Arial, Helvetica, sans-serif;
 }
-
+/*  Comienzo reglas Header */
 header{
   display: flex;
   flex-direction: row;
@@ -116,21 +116,50 @@ nav ul li a {
   height: 40px;
   width: 40px;
 }
+/*  Fin reglas Header */
 
-@media only screen and (max-width: 850px) {
-  header  {
-    flex-direction: column;
-  }
-
-  .logo-primary {
-    width: 100%;
-  }
-
-  .browser-container{
-    width: 100%;
-  }
+/*  Comienzo reglas Generales */
+.banner {
+  background-image: url('../img/compartidas/banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
 }
 
+
+.wrapper {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 60px auto ;
+  justify-content: space-between;
+}
+
+.box-1 {
+  width: 50%;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.box-2 {
+  width: 50%;
+  overflow: hidden;
+}
+
+
+/*  Fin reglas Generales */
+
+/*  Comienzo reglas templates 1 */
+
+/*  Comienzo reglas templates 2 */
+
+/*  Comienzo reglas templates 3 */
+
+/*  Comienzo reglas templates 4 */
+
+
+/*  Comienzo reglas Footer */
 footer {
   background-color: #111111;
 }
@@ -140,30 +169,60 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
 }
 
 .container-left{
-  
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin:40px 0;
 } 
 
 .container-left figure{
-  margin: 20px auto;
+  display: flex;
+  justify-content: center;
 } 
 
-.color-text{
+.direction {
+  display: flex;  
+}
+
+.color-text {
   color: #ffffff;
   text-decoration: none;
 }
 
-.color-icon {
+.direction-icon {
   color: #E41C26;
+  height: 32px;
+  width: 32px;
+  margin: 10px;
 }
 
+.tel-icon {
+  color: #E41C26;
+  height: 24px;
+  width: 24px;
+  margin: 10px;
+}
+
+.rrss-footer {
+  align-items: center ;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rrss-footer svg{
+  color: #E41C26;
+  margin: 20px 0;
+  height: 32px;
+  width: 32px;
+}
 
 .container-right {
+  align-items: center;
   display: flex;
-  flex-direction: row;
 }
 
 .column-footer {
@@ -173,16 +232,18 @@ footer {
 .column-footer h3 {
   color: #ffffff;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .column-footer ul li {
   list-style: none;
+  padding: 10px 0;
 }
 
 .column-footer ul li a{
   color: #ffffff;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .copy {
@@ -197,10 +258,29 @@ footer {
   margin: auto;
   text-align: center;
 }
+/*  Fin reglas Footer */
+
+/*  Reglas para cuando el tamaño de la pantalla sea menor a 850px */
 @media only screen and (max-width: 850px) {
-  
+  header  {
+    flex-direction: column;
+  }
+
+  .logo-primary {
+    width: 100%;
+  }
+
+  .browser-container{
+    width: 100%;
+  }
+
   .container-footer {
     flex-direction: column;
     width: 90%;
+  }
+
+  .container-right,
+  .container-left {
+    justify-content: center;
   }
 }
