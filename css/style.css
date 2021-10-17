@@ -127,7 +127,6 @@ nav ul li a {
   height: 320px;
 }
 
-
 .wrapper {
   display: flex;
   width: 80%;
@@ -146,7 +145,6 @@ nav ul li a {
   width: 50%;
   overflow: hidden;
 }
-
 
 /*  Fin reglas Generales */
 
@@ -262,6 +260,7 @@ footer {
 
 /*  Reglas para cuando el tamaño de la pantalla sea menor a 850px */
 @media only screen and (max-width: 850px) {
+  /*  Reglas Header */
   header  {
     flex-direction: column;
   }
@@ -270,10 +269,21 @@ footer {
     width: 100%;
   }
 
-  .browser-container{
+  .browser-container {
     width: 100%;
   }
 
+  /*  Reglas Generales */
+  .wrapper {
+    align-items: center;
+  }
+
+  .box-1,
+  .box-2 {
+    width: 100%;
+  }
+
+  /*  Reglas Footer */
   .container-footer {
     flex-direction: column;
     width: 90%;
