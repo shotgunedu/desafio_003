@@ -154,6 +154,211 @@ nav ul li a {
 
 /*  Comienzo reglas templates 3 */
 
+.black{
+  background: black;
+  float: left;
+}
+
+.subrayado-blanco{
+  border-bottom: white solid 5px;
+  width: 30%;
+  height: 0;
+  margin-bottom: 3%;
+}
+
+.e-backgroundvit::before{
+  content: '';
+  position: absolute;
+  background: url("../img/pagina3/fondovitaminas.jpg")50% 0 no-repeat;
+  height: 740px;
+  width: 100%;
+  opacity: 0.2;
+  z-index: 0; 
+}
+
+.e-container{
+  position: relative;
+  width: 100%;
+  height: 740px; 
+}
+
+.e-vittext{
+  float: left;
+  padding-left: 10%;
+  height: 740px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  align-content: center;
+  color: white;
+}
+
+.e-vittext h2{
+  font-size: 59px;
+  width: 100%;
+}
+
+.e-vittext p{
+  margin-bottom: 60px;
+  padding-right: 60px;
+}
+
+.e-imgvit{
+  float: right;
+  height: auto;
+  padding-left: auto;
+  padding-right: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  
+}
+
+.e-imgvit img{
+  width: 100%;
+  height: auto;
+}
+
+.e-boton{
+  border: white solid 1px;
+  padding: 7px 20px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.e-boton:hover{
+  background: red;
+}
+
+/* ----------------------- */
+
+.subrayado-rojo{
+  border-bottom: red solid 5px;
+  width: 30%;
+  height: 0;
+  margin-bottom: 3%;
+}
+
+.e-white{
+  background: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 5%;
+  float: left;
+}
+.e-frame::before{
+  content: '';
+  position: absolute;
+  border: red solid 7px;
+  width: 25%;
+  left: 5%;
+  margin-top: 5%;
+  height: 738px;
+}
+
+.e-imgprot{
+  position: relative;
+  float: left;
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin-top: 9%;
+  background: white;
+}
+
+.e-imgprot img{
+  width: 100%;
+  height: auto;
+}
+
+.e-prottext{
+  
+  float: right;
+  width: 55%;
+  height: 730px;
+  padding-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.e-prottext h4{
+  margin-top: 5%;
+}
+
+.e-prottext h2{
+  font-size: 55px;
+  text-align: left;
+  width: 100%;
+}
+.e-prottext h3{
+  font-size: 59px;
+  margin-bottom: 5%;
+}
+
+.e-prottext p{
+  width: 100%;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+.e-kg{
+  width: 100%;
+  margin: 5% 0;
+}
+
+.e-kg ul{
+  list-style: none;
+}
+
+.e-kg li{
+  list-style: none;
+  float: left;
+}
+.e-kg a{
+  text-decoration: none;
+  color: gray;
+  background-color: lightgray;
+  border: lightgray solid 1px;
+  padding: 7px 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.e-kg a:hover{
+  color: black;
+  background-color: white;
+  border: black solid 1px;
+}
+.e-blackbtn{
+  padding: 7px 20px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  background-color: lightgray;
+  font-weight: 300;
+  text-align: center;
+  margin-right: 25px;
+}
+.e-blackbtn:hover{
+  background-color: black;
+  color: white;
+}
+.e-botones{
+  width: 100%;
+}
+.e-botones a{
+  font-size: 18px;
+}
+
+/*  FINAL reglas templates 3 */
+
 /*  Comienzo reglas templates 4 */
 
 
