@@ -154,6 +154,371 @@ nav ul li a {
 
 /*  Comienzo reglas templates 3 */
 
+.black{
+  background: black;
+  float: left;
+}
+
+.subrayado-blanco{
+  border-bottom: white solid 5px;
+  width: 30%;
+  height: 0;
+  margin-bottom: 3%;
+}
+
+.e-backgroundvit::before{
+  content: '';
+  position: absolute;
+  background: url("../img/pagina3/fondovitaminas.jpg")50% 0 no-repeat;
+  height: 740px;
+  width: 100%;
+  opacity: 0.2;
+  z-index: 0; 
+}
+
+.e-container{
+  position: relative;
+  width: 100%;
+  height: 740px; 
+}
+
+.e-vittext{
+  float: left;
+  padding-left: 10%;
+  height: 740px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  align-content: center;
+  color: white;
+}
+
+.e-vittext h2{
+  font-size: 59px;
+  width: 100%;
+}
+
+.e-vittext p{
+  margin-bottom: 60px;
+  padding-right: 60px;
+}
+
+.e-imgvit{
+  float: right;
+  height: auto;
+  padding-left: auto;
+  padding-right: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  
+}
+
+.e-imgvit img{
+  width: 100%;
+  height: auto;
+}
+
+.e-boton{
+  border: white solid 1px;
+  padding: 7px 20px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.e-boton:hover{
+  background: red;
+}
+
+/* -- */
+
+.subrayado-rojo{
+  border-bottom: red solid 5px;
+  width: 30%;
+  height: 0;
+  margin-bottom: 3%;
+}
+
+.e-white{
+  background: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 5%;
+  float: left;
+}
+.e-frame::before{
+  content: '';
+  position: absolute;
+  border: red solid 7px;
+  width: 25%;
+  left: 5%;
+  margin-top: 5%;
+  height: 738px;
+}
+
+.e-imgprot{
+  position: relative;
+  float: left;
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin-top: 9%;
+  background: white;
+}
+
+.e-imgprot img{
+  width: 100%;
+  height: auto;
+}
+
+.e-prottext{
+  
+  float: right;
+  width: 55%;
+  height: 730px;
+  padding-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.e-prottext h4{
+  margin-top: 5%;
+}
+
+.e-prottext h2{
+  font-size: 50px;
+  text-align: left;
+  width: 100%;
+}
+.e-prottext h3{
+  font-size: 59px;
+  margin-bottom: 5%;
+}
+
+.e-prottext p{
+  width: 100%;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+.e-kg{
+  width: 100%;
+  margin: 5% 0;
+}
+
+.e-kg ul{
+  list-style: none;
+}
+
+.e-kg li{
+  list-style: none;
+  float: left;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.e-kg a{
+  text-decoration: none;
+  color: gray;
+  background-color: lightgray;
+  border: lightgray solid 1px;
+  padding: 7px 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.e-kg a:hover{
+  color: black;
+  background-color: white;
+  border: black solid 1px;
+}
+.e-blackbtn{
+  padding: 7px 20px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  background-color: lightgray;
+  font-weight: 300;
+  text-align: center;
+  margin-right: 25px;
+  margin: 5px;
+
+  float: left;
+}
+.e-blackbtn:hover{
+  background-color: black;
+  color: white;
+}
+.e-botones{
+  width: 100%;
+}
+.e-botones a{
+  font-size: 18px;
+}
+
+/*--*/
+
+.e-center{
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: auto;
+  float: left;
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: center;
+}
+
+.e-center h2{
+  font-size: 59px;
+  width: 100%;
+}
+
+.subrayado-rojo2{
+  border-bottom: red solid 5px;
+  width: 25%;
+  margin-bottom: 3% ;
+  margin-left: 35%;
+  margin-right: auto;
+}
+
+.e-center p{
+  width: 100%;
+  font-size: 20px;
+}
+
+/* -- */
+.e-gym{
+  margin-top: 3%;
+  width: 30%;
+  float: left;
+  display: flex;
+  justify-content: left;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.e-gym ul{
+  list-style: none;
+  width: 100%;
+}
+
+.e-gym li{
+  float: left;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  font-size: 14px;
+  color:#7E7E7E;
+}
+
+.e-gym li a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items:flex-start;
+}
+
+.e-gym li i{
+  color: red;
+  margin-right: 5px;
+}
+
+.e-gym h2{
+  margin-bottom: 5%;
+}
+
+.e-gym p{
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5%;
+  color:#7E7E7E;
+}
+
+.e-imgcol{
+  float: left;
+  margin-bottom: 3%;
+  background: url("../img/pagina3/columna1.png")0 50% no-repeat;
+  height: 300px;
+  width: 100%;
+  z-index: 0; 
+  border-radius: 50px; 
+}
+
+.e-imgcol2{
+  float: left;
+  margin-bottom: 3%;
+  background: url("../img/pagina3/columna2.png")0 50% no-repeat;
+  height: 300px;
+  width: 100%;
+  z-index: 0; 
+  border-radius: 50px; 
+}
+
+.e-imgcol3{
+  float: left;
+  margin-bottom: 3%;
+  background: url("../img/pagina3/columna3.png")0 50% no-repeat;
+  height: 300px;
+  width: 100%;
+  z-index: 0; 
+  border-radius: 50px; 
+}
+
+.e-fecha{
+  width: 4%;
+  height: auto;
+  padding: 7px 40px;
+  margin-top: 175px;
+  margin-left: 20px;
+  float: left;
+  color: white;
+  background: red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.e-fecha h2{
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.e-fecha h3{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.leer-mas{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding: 10px 50px;
+  border: 1px solid #7E7E7E;
+  background: white;
+  margin-bottom: 35%;
+  color:#7E7E7E;
+}
+
+.leer-mas:hover{
+  background: red;
+  color: white;
+  border: 0px solid #7E7E7E;
+}
+
+/*  FINAL reglas templates 3 */
+
 /*  Comienzo reglas templates 4 */
 
 
@@ -273,6 +638,47 @@ footer {
     width: 100%;
   }
 
+  .e-gym{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .e-kg li{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .e-frame::before{
+    margin-top: calc(105vh - 0px);
+    height: 50%;
+    width: 60%;
+    z-index: 1;
+  }
+
+  .e-imgprot{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-bottom: 10%;
+    z-index: 2;
+  }
+
+  .e-imgprot img{
+    width: 100%;
+  }
+ 
+  .e-prottext{
+    width: 90%;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  .e-white{
+    margin-bottom: 10%;
+  }
+  
   /*  Reglas Generales */
   .wrapper {
     align-items: center;
